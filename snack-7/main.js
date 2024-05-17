@@ -1,3 +1,5 @@
+'use strict';
+
 // //variabili di partenza con maxnumber dato
 // let start = 1;
 // let maxnumber = 1000;

@@ -1,9 +1,7 @@
 'use strict';
 
-// array di partenza
+// array e variabili di partenza
 const numbers = []
-
-// quante volte chiedere l'input?
 let repetitions = 6;
 
 // comando dell'azione: chiedi 6 numeri, se dispari inserisci nell'array
