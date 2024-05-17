@@ -7,7 +7,7 @@
 // for (let i = start; i <= maxvalue; i++) {
 
 //     let evennumbers = i * 2;
-//     console.log(evennumbers)
+//     console.log(evennumbers);
 
 // }
 
@@ -20,6 +20,6 @@ let maxvalue = maxnumber / 2;
 for (let i = start; i <= maxvalue; i++) {
 
     let evennumbers = i * 2;
-    console.log(evennumbers)
+    console.log(evennumbers);
 
 }
