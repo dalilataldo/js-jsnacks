@@ -5,7 +5,7 @@ const numbers = []
 let repetitions = 6;
 
 // comando dell'azione: chiedi 6 numeri, se dispari inserisci nell'array
-for (let i = 1; i <= repetitions; i++) {
+for (let i = 0; i < repetitions; i++) {
 
     const userinput = Number(prompt('Inserisci un numero'));
 
