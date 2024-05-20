@@ -10,7 +10,7 @@ for (let i = start; i < repetitions; i++) {
     let firstnum = Number(prompt('Inserisci un numero random'));
     let secondnum = Number(prompt('Inserisci un numero random'));
     if (firstnum === secondnum) {
-        console.log('Hai vinto')
+        console.log('Hai perso')
         break;
     } else if (firstnum !== secondnum) { firstnum = secondnum }
     console.log(firstnum)
