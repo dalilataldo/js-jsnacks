@@ -7,17 +7,18 @@ let repetitions = 6;
 // comando dell'azione: chiedi 6 numeri, se dispari inserisci nell'array
 for (let i = 0; i < repetitions; i++) {
 
-    let userinput = Number(prompt('Inserisci un numero'));
+    let userInput = Number(prompt('Inserisci un numero'));
 
-    if (userinput % 2 !== 0) {
-        numbers.push(userinput);
+    if (!isNaN(userInput)) {
+        if (userInput % 2 !== 0) {
+            numbers.push(userInput);
+        }
+
     }
-
+    else {
+        console.log('Non hai inserito un numero')
+    }
 }
 
 // stampo in console l'array con i nuovi elementi
 console.log(numbers);
-
-
-
-
