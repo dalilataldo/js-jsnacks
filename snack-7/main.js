@@ -1,27 +1,30 @@
 'use strict';
 
 // //variabili di partenza con maxnumber dato
-// let start = 0;
-// let maxnumber = 1000;
-// let maxvalue = maxnumber / 2;
+// let start = 1;
+// let maxNumber = 1000;
+// let maxValue = maxNumber / 2;
 
-// //comando dell'azione: stampa i numeri pari fino al maxnumber
-// for (let i = start; i < maxvalue; i++) {
+// //comando dell'azione: stampa i numeri pari fino al maxNumber
+// for (let i = start; i <= maxValue; i++) {
 
-//     let evennumbers = i * 2;
-//     console.log(evennumbers);
+//     let evenNumbers = i * 2;
+//     console.log(evenNumbers);
 
 // }
 
 //variabili di partenza con maxnumber da chiedere all'utente
-let start = 0;
-let maxnumber = Number(prompt('Inserisci un numero massimo'));
-let maxvalue = maxnumber / 2;
+let start = 1;
+let maxNumber = Number(prompt('Inserisci un numero massimo'));
+let maxValue = maxNumber / 2;
 
 //comando dell'azione: stampa i numeri pari fino al maxnumber
-for (let i = start; i < maxvalue; i++) {
+if (!isNaN(maxNumber)) {
+    for (let i = start; i <= maxValue; i++) {
 
-    let evennumbers = i * 2;
-    console.log(evennumbers);
+        let evenNumbers = i * 2;
+        console.log(evenNumbers);
 
+    }
 }
+else { console.log('Non hai inserito un numero') }
