@@ -1,19 +1,21 @@
 'use strict';
 
 // variabili di partenza
-let firstnum = null;
+let firstNum = null;
 let start = 0;
 let repetitions = 10;
 
 //comando dell'azione: se firstnum = secondnum, esci dal ciclo
-for (let i = start; i < repetitions; i++) {
-    let firstnum = Number(prompt('Inserisci un numero random'));
-    let secondnum = Number(prompt('Inserisci un numero random'));
-    if (firstnum === secondnum) {
+for (let i = start; i < 1; i++) {
+    let secondNum = Number(prompt('Inserisci un numero'));
+
+    if (firstNum === secondNum) {
         console.log('Hai perso')
         break;
-    } else if (firstnum !== secondnum) { firstnum = secondnum }
-    console.log(firstnum)
+    } else {
+        firstNum = secondNum
+        i--;
+    }
 }
 
 
